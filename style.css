@@ -1,0 +1,50 @@
+header
+{margin:4px;
+font-family:sans-serif;
+padding:15px;}
+
+body
+{margin:0px;
+border:green 20px double;
+border-color:yellow orange red pink;
+margin-top:0px;
+padding-top:30px;
+background-color:antiquewhite;}
+
+/*
+To add margins/padding to specific sides
+  margin-top: 5px; (padding-top: 5px;)
+  margin-left: 6px; (padding-left: 6px;)
+  margin-bottom: 4px; (padding-bottom: 4px;)
+  margin-left: 8px; (padding-left: 8px;)
+  
+Long hand border property
+  border-color:red;
+  border-width: 20px
+  border-style:double;
+
+You can have negitive margins that it will cause the page to go out of bounds. 
+You can not have a negitive padding.
+*/
+
+h1
+{margin:0px;
+ letter-spacing:3px;
+ text-transform:uppercase;}
+
+.font-blue
+{color:blue;
+ background-color:aquamarine;}
+
+#note
+{color: blueviolet;
+ font-style:oblique;}
+
+#h1
+{color:forestgreen;
+background-color:rosybrown;
+padding:25;
+border: soild 3px black;}
+
+.small-font
+{font-size:15px;}
